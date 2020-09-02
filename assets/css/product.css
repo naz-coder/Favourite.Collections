@@ -1,0 +1,72 @@
+body{
+    text-align: center;
+}
+.d-flex{
+    display: flex;
+}
+.justify-between{
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    margin-right: 25px;
+    transition: 1s all;
+    font-weight: 900;
+}
+nav ul li a.active{
+    color: dodgerblue;
+}
+nav ul li a:hover{
+    color: dodgerblue;
+    transition: 1s all;
+}
+nav ul li a i{ 
+    margin-right: 5px;
+}
+div.brand{
+    padding: 20px;
+}
+div.brand a{
+    color: green;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+img{
+    width: 200px;
+    height: 150px;
+}
+a.pix2{
+    text-decoration: none;
+    color: #000;
+    font-size: small;
+}
+button{
+    text-decoration: none;
+    font-size: small;
+    background-color: blueviolet;
+}
+
