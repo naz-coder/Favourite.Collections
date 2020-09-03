@@ -6,14 +6,86 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Contact Form | Favourite Collections</title>
     <link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/all.css">
-    <style>
-        body{
-            background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/fabric.jpeg");
-            background-repeat: no-repeat;
-            background-size: cover;
-            overflow: hidden;
-            padding-left: 420px;
-        }
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/brands.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/fontawesome/css/all.css">
+<style>
+    body{
+        background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("assets/images/fabric.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        overflow: hidden;
+        padding-left: 420px;
+    }
+    header{
+        background-color: #fff;
+        -webkit-box-shadow: 0 8px 6px -6px #ccc;
+        -moz-box-shadow: 0 8px 6px -6px #ccc;
+        box-shadow: 0 8px 6px -6px #ccc;
+        position: fixed;
+        width: 100%;
+}
+header.head{
+            padding-left: 0px;
+        padding-top: 0px;
+
+}
+.d-flex{
+    display: flex;
+    padding-left: 0px;
+    padding-top: 0px;
+}
+.justify-between{
+    justify-content: space-between;
+}
+nav ul{
+    list-style-type: none;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+}
+nav ul{
+    list-style-type: none;
+    margin-top: 20px;
+}
+nav ul li{
+    display: inline-block;
+}
+nav ul li a{
+    text-decoration: none;
+    color: green;
+    margin-right: 25px;
+    transition: 1s all;
+    font-weight: 900;
+}
+nav ul li a.active{
+    color: dodgerblue;
+}
+nav ul li a:hover{
+    color: dodgerblue;
+    transition: 1s all;
+}
+nav ul li a i{ 
+    margin-right: 5px;
+}
+div.brand{
+    padding: 20px;
+}
+div.brand a{
+    color: green;
+    font-weight: 900;
+    font-size: 20px;
+    text-decoration: none;
+}
+.justify-around{
+    justify-content: space-around;
+}
+.text-center{
+    text-align: center;
+}
+
         section#contact div.contact-us{
             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
             color: rgb(238, 238, 206);
@@ -80,6 +152,36 @@
     </style>
 </head>
 <body>
+    <header class="head">
+        <div class="d-flex justify-between">
+            <div class="brand">
+                <a href="index.html"><img src="assets/images/favcol.jpg" width="40" height="30" alt=""></a>
+            </div>
+        <div>
+        <nav>
+            <ul> 
+                <li>
+                    <a href="index.html"><i class="fa fa-home"></i>Home</a>
+                </li>
+
+                <li>
+                    <a href="#brief"><i class="fa fa-archive"></i>About Us</a>
+                </li>
+
+                <li>
+                    <a href="#services"><i class="fa fa-cogs"></i>Services</a>
+                </li>
+                <li>
+                    <a href="products.html"><i class="fa fa-credit-card"></i>Payments</a>
+                </li>
+ 
+                <li> 
+                    <a href="contact.html"><i class="fa fa-envelope"></i>Contact Us</a>
+                </li>
+
+            </ul>
+        </nav>
+    </header>
     <section id="contact">
         <div class="contact-us">
             <P>Contact Us!</P>   
